@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment & secrets
+.env
+.env.*
+*.key
+secrets.json
+credentials.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Node (for any JS/automation scripts)
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & exports
+*.csv
+*.xlsx
+*.json
+data/raw/
+data/processed/
+outputs/
+
+# Docker
+*.env.docker
+
+# Logs
+*.log
+logs/
